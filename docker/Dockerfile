@@ -1,11 +1,6 @@
-ARG CORA_DOCKER_JAVA_VERSION
-FROM cora-docker-java:${CORA_DOCKER_JAVA_VERSION}
+ARG CORA_DOCKER_VERSION
+FROM cora-docker-tomcat:${CORA_DOCKER_VERSION}
 
-COPY /alvinindexmessenger*.jar /indexing/alvinindexmessenger.jar
-
-COPY /*.properties /indexing/properties/
-
-WORKDIR /indexing
-
-CMD java -classpath /indexing/properties/:/indexing/alvinindexmessenger.jar:/indexing/log4j.jar se.uu.ub.cora.alvin.indexmessenger.AlvinIndexMessengerStarter
-
+COPY server.xml /usr/local/tomcat/conf/
+COPY /synchronizer.war /usr/local/tomcat/webapps/synchronizer.war
+COPY /synchronizerContext.xml /usr/local/tomcat/conf/Catalina/localhost/synchronizerContext.xml

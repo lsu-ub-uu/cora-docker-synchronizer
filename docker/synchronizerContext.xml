@@ -1,0 +1,8 @@
+<Context>
+<!-- 	<Parameter name="gatekeeperURL" value="http://gatekeeper:8080/gatekeeperserver/" -->
+<!-- 		override="false" /> -->
+<!-- 	<Parameter name="mainSystemDomain" value="${main.system.domain}" -->
+<!-- 		override="false" /> -->
+<!-- 	<Parameter name="tokenLogoutURL" value="${token.logout.url}" -->
+<!-- 		override="false" /> -->
+</Context>
