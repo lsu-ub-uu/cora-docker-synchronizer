@@ -3,4 +3,4 @@ FROM cora-docker-tomcat:${CORA_DOCKER_VERSION}
 
 COPY server.xml /usr/local/tomcat/conf/
 COPY /synchronizer.war /usr/local/tomcat/webapps/synchronizer.war
-COPY /synchronizerContext.xml /usr/local/tomcat/conf/Catalina/localhost/synchronizerContext.xml
+#COPY /synchronizerContext.xml /usr/local/tomcat/conf/Catalina/localhost/synchronizerContext.xml
