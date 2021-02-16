@@ -1,10 +1,6 @@
 <Context>
-	<Parameter name="apptokenVerifierURL"
-		value="http://host.docker.internal:8182/apptokenverifier/" override="false" />
-	<Parameter name="baseURL"
-		value="http://host.docker.internal:8082/diva/rest/" override="false" />
-	<Parameter name="userId" value="coraUser:490742519075086"
-		override="false" />
-	<Parameter name="appToken" value="2e57eb36-55b9-4820-8c44-8271baab4e8e"
-		override="false" />
+	<Parameter name="apptokenVerifierURL" value="${apptokenVerifierURL}" override="false" />
+	<Parameter name="baseURL" value="${baseURL}" override="false" />
+	<Parameter name="userId" value="${userId}" override="false" />
+	<Parameter name="appToken" value="${appToken}" override="false" />
 </Context>
