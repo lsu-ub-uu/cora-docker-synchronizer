@@ -124,7 +124,6 @@
 								<argument>build</argument>
 								<argument>-t</argument>
 								<argument>${project.artifactId}:${project.version}</argument>
-<!-- 								<argument>alvin-docker-index:${project.version}</argument> -->
 								<argument>--build-arg</argument>
 								<argument>CORA_DOCKER_VERSION=${cora-docker-tomcat.version}</argument>
 								<argument>.</argument>
