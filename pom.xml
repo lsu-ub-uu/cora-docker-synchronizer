@@ -37,7 +37,7 @@
 		<exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
 		
 		<cora-docker-tomcat.version>2.0.0</cora-docker-tomcat.version>
-		<synchronizer.version>2.4-SNAPSHOT</synchronizer.version>
+		<synchronizer.version>2.5-SNAPSHOT</synchronizer.version>
 	</properties>
 
 	<scm>
